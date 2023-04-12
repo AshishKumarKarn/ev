@@ -10,7 +10,7 @@ spring.datasource.password=<PASSWORD>
 * JAVA 19
 * MAVEN (used 3.8.6)
 * Postgres
-* COMMAND : mvn clean install spring-boot:run
+* COMMAND : mvn spring-boot:run -Dspring-boot.run.arguments="--spring.config.name=app --spring.profiles.active=qa"
 BASE URL TO ACCESS :
 ````
 http://localhost:9111/ev/
