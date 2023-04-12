@@ -28,6 +28,7 @@ Refer: https://docs.spring.io/spring-data/commons/docs/3.1.x/reference/html/
 4.4.3. Property Expressions
 
 ***nginx***
+* Spin up application on multiple different ports , let's say 9000, 9001
 * install nginx > `brew install nginx`
 * run nginx > `nginx` or `brew services start nginx`
 * change file /opt/homebrew/etc/nginx/nginx.conf to below
