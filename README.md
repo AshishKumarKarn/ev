@@ -1,3 +1,5 @@
+DEMO APPLICATION FOR PAGINATION AND SORTING
+
 Change below property as per data source details in application.properties
 ```
 spring.datasource.url=<URL>
